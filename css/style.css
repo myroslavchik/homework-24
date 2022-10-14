@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+:disabled {
+    background-color: #a52a2a;
+}
+
+.card {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    min-height: 250px;
+    background-color: rgb(231, 218, 208);
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.city {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+}
+
+.celcius {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    color: #a52a2a;
+}
